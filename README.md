@@ -6,10 +6,14 @@ Automation test for API
 
 * JAVA JDK
 * IntelliJ IDEA 
-* Maven (IntelliJ plugin)
-* Cucumber for Java (IntelliJ plugin)
-* Gherkin (IntelliJ plugin)
-* CheckStyle (IntelliJ plugin)
+* Maven 
+
+<h3>Installation instructions</h3>
+
+- Install all software download
+- Setup environment variables : JAVA_HOME, MAVEN_HOME
+- Install plugins in IntelliJ : Cucumber for Java, Gherkin, google-java-format, Checkstyle
+  
  <h3>Execute test by commandline: </h3>
  
 - Run test all feature with environment (for api for now) : mvn clean verify -pl=api -Denvironment=dev
